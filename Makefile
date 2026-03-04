@@ -2,8 +2,8 @@ VERSION := 1.0.0
 BINARY_NAME := "rlss"
 PACKAGE_NAME := "realess-server"
 DISPLAY_NAME := "Realess Server"
-BUILD_DIR := "./releases/build"
-RELEASE_DIR := "./releases"
+BUILD_DIR := "./release/build"
+RELEASE_DIR := "./release"
 
 ARGS := $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS))
 
