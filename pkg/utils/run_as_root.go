@@ -1,9 +1,9 @@
 package utils
 
 import (
+	"errors"
 	"fmt"
 	"os"
-	"errors"
 	"os/exec"
 	"strings"
 )

@@ -6,8 +6,11 @@ import (
 	"os/exec"
 )
 
-// EnsureRoot checks if the current user is root and auto elevates privileges if not.
-// This function is intended to be called in the PersistentPreRun of Cobra commands that require root access.
+/*
+EnsureRoot checks if the current user is root and auto elevates privileges if not.
+
+This function is intended to be called in the PersistentPreRun of Cobra commands that require root access.
+*/
 func EnsureRoot() {
 	// Check if the user is root
 	if os.Geteuid() == 0 {

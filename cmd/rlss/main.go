@@ -6,6 +6,6 @@ import (
 
 var version = "dev"
 
-func main () {
+func main() {
 	commands.CreateRootCmd(version).Execute()
 }
