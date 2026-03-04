@@ -1,4 +1,4 @@
-VERSION := 1.0.0
+VERSION := 0.1.0
 BINARY_NAME := "rlss"
 PACKAGE_NAME := "realess-server"
 DISPLAY_NAME := "Realess Server"
