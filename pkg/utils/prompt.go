@@ -62,7 +62,7 @@ func PromptInput(promptMsg string, defaultVal string, required bool) string {
 
 	var opts []survey.AskOpt
 	if required {
-		// 添加必填验证器
+		// Add a required validator if the input is mandatory
 		opts = append(opts, survey.WithValidator(survey.Required))
 	}
 
